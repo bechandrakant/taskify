@@ -1,0 +1,21 @@
+.todo {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(246, 237, 64);
+  border-radius: 12px;
+  margin-top: 16px;
+}
+
+.todoTitle {
+  font-size: 24px;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-left: 1px solid #555;
+  padding-left: 12px;
+}

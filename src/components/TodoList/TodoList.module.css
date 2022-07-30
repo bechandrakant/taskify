@@ -1,0 +1,29 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.title {
+  font-weight: 300;
+}
+
+.todosActive {
+  flex: 1;
+  background: rgba(97, 163, 116, 0.607);
+  padding: 16px;
+  margin-top: 24px;
+}
+
+.todosComplete {
+  flex: 1;
+  background: rgba(169, 87, 86, 0.552);
+  padding: 16px;
+  margin-top: 24px;
+}
+
+.dragActive {
+  background: rgba(64, 223, 109, 0.607);
+}
